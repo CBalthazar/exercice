@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: navy;
+  background-color: aquamarine;
+}
+
+article {
+  height: auto;
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  background-color: gold;
+  border: solid black 3px;
+  border-radius: 20px;
+}
+
+h1 {
+  color: red;
+}
+
+nav *:hover {
+  color: chocolate;
+}
