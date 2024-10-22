@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Page Web d'exercice</title>
+  </head>
+  <body>
+    <picture>
+      <!-- <source
+        srcset="https://picsum.photos/1000/1000"
+        media="min-width: 1000px"
+      /> -->
+      <!-- <source srcset="https://picsum.photos/800/800" media="min-width: 800px" /> -->
+      <source srcset="../asset/safety-stock-full-warehouse.jpg" />
+      <img srcset="https://picsum.photos/600/600" alt="placeholder image" />
+    </picture>
+    <video
+      controls
+      loop
+      aria-label="placeholder video"
+      poster="https://picsum.photos/780/360"
+      width="720"
+      height="360"
+    >
+      <source
+        src="https://videos.pexels.com/video-files/854692/854692-hd_1920_1080_24fps.mp4"
+        type="video/mp4"
+      />
+      <source src="../asset/coding.mp4" type="video/mp4" />
+      <track
+        src="./sous_titres.vtt"
+        kind="subtitles"
+        srclang="fr"
+        label="Français"
+        default
+      />
+      <track
+        src="./subtitles.vtt"
+        kind="subtitles"
+        srclang="en"
+        label="English"
+      />
+      le navigateur ne supporte pas le lien vidéo
+      <a href="../asset/coding.mp4">télécharger ici</a>
+    </video>
+    <fieldset>
+      <legend>Langues</legend>
+
+      <div>
+        <input
+          type="radio"
+          id="noCaption"
+          name="drone"
+          value="noCaption"
+          checked
+        />
+        <label for="noCaption">No Caption</label>
+      </div>
+
+      <div>
+        <input type="radio" id="Francais" name="drone" value="Francais" />
+        <label for="Francais">Français</label>
+      </div>
+
+      <div>
+        <input type="radio" id="English" name="drone" value="English" />
+        <label for="English">English</label>
+      </div>
+    </fieldset>
+    <p id="description-video">
+      La vidéo présente un feu qui crépite, de nuit dans la forêt
+    </p>
+  </body>
+</html>

@@ -29,3 +29,7 @@ h1 {
 nav *:hover {
   color: chocolate;
 }
+
+track {
+  color: blue;
+}
